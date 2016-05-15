@@ -1,8 +1,14 @@
 body {
-  font-family: "Tex Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12pt;
+  font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
 }
 
 p {
   width: 27em;
+  margin: auto;
+  margin-bottom: 2em;
+  line-height: 2em;
+}
+
+#about {
 }
