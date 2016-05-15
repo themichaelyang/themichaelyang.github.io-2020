@@ -1,19 +1,42 @@
 body {
   font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 11pt;
+  font-size: 10pt;
   width: 100%;
   margin: 0; }
 
 p {
-  width: 66%;
-  max-width: 27em;
-  margin: auto;
+  margin-top: 0;
   margin-bottom: 2em;
   line-height: 2em;
-  color: #7f7f7f; }
+  color: #777777; }
+
+#navbar {
+  width: 66%;
+  max-width: 18em;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  text-align: center; }
+  #navbar ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: auto; }
+  #navbar li {
+    padding-right: 2em;
+    list-style-type: none;
+    float: left; }
 
 a {
-  color: #C5C5C5; }
+  color: #ccc4bd;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 
 #about {
-  margin-top: 5.5em; }
+  width: 66%;
+  max-width: 18em;
+  margin: auto;
+  padding: 2em;
+  border-radius: 0.3em;
+  box-shadow: 0 0 0.5em #e7e7e7; }
