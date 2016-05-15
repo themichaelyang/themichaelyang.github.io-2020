@@ -1,9 +1,19 @@
 body {
   font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 11pt; }
+  font-size: 11pt;
+  width: 100%;
+  margin: 0; }
 
 p {
-  width: 27em;
+  width: 66%;
+  max-width: 27em;
   margin: auto;
   margin-bottom: 2em;
-  line-height: 2em; }
+  line-height: 2em;
+  color: #7f7f7f; }
+
+a {
+  color: #C5C5C5; }
+
+#about {
+  margin-top: 5.5em; }
