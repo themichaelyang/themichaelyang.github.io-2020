@@ -1,42 +1,51 @@
 body {
-  font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10pt;
-  width: 100%;
+  font-family: Overpass;
+  font-size: 12pt;
   margin: 0; }
 
 p {
+  width: 90%;
+  max-width: 20em;
+  margin: auto;
   margin-top: 0;
   margin-bottom: 2em;
   line-height: 2em;
-  color: #777777; }
+  color: #7F7F7F; }
 
 #navbar {
-  width: 66%;
-  max-width: 18em;
+  width: 90%;
+  max-width: 20em;
   margin: auto;
-  margin-top: 2em;
-  margin-bottom: 4em;
+  margin-top: 4em;
+  margin-bottom: 2em;
   text-align: center; }
   #navbar ul {
+    display: inline-block;
     margin: 0;
     padding: 0;
-    display: block;
     overflow: auto; }
   #navbar li {
-    padding-right: 2em;
+    padding: 1.2em;
     list-style-type: none;
     float: left; }
+  #navbar #dollars {
+    width: 100%; }
 
 a {
-  color: #ccc4bd;
+  color: #c1b8b1;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
 
 #about {
-  width: 66%;
-  max-width: 18em;
-  margin: auto;
-  padding: 2em;
-  border-radius: 0.3em;
-  box-shadow: 0 0 0.5em #e7e7e7; }
+  padding: 2em; }
+
+#dollar {
+  width: 2em;
+  padding: 0.1em 0.6em;
+  background-color: #ddd6cf;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 5em; }

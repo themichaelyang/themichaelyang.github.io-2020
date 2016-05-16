@@ -1,49 +1,62 @@
-$max-width: 18em;
+$max-width: 20em;
+$width: 90%;
 
 body {
   // font-family: Inconsolata;
-  font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10pt;
-  width: 100%;
+  font-family: Overpass;
+  // font-family: 'Source Sans Pro';
+  // font-weight: 300;
+
+  // font-family: "Linux Libertine Display O";
+
+  // font-family: "HK Grotesk";
+  // font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  // width: 100%;
   margin: 0;
 }
 
 p {
+  width: $width;
+  max-width: $max-width;
+  margin: auto;
   margin-top: 0;
   margin-bottom: 2em;
   line-height: 2em;
-  color: #777777;
-  // color: #5c5c5c;
+  // line-height: 1.8em;
+  // color: #262626;
+  color: #7F7F7F;
 }
 
 #navbar {
-  width: 66%;
+  width: $width;
   max-width: $max-width;
   margin: auto;
-  margin-top: 2em;
-  margin-bottom: 4em;
+  // margin-top: 4em;
+  margin-top: 4em;
+  margin-bottom: 2em;
   text-align: center;
   ul {
-    // display: inline-block;
+    display: inline-block;
     margin: 0;
     padding: 0;
-    display: block;
+    // display: block;
     overflow: auto;
   }
   li {
-    padding-right: 2em;
-    // padding: 1.2em;
+    // padding-right: 2em;
+    padding: 1.2em;
     list-style-type: none;
     float: left;
+  }
+  #dollars {
+    width: 100%;
   }
 }
 
 a {
-  // color: #C5C5C5;
-  color: #ccc4bd;
-  // color: #bdbdbd;
-  // color: rgb(169, 194, 250);
-  // color: rgb(255, 118, 99);
+  color: #c1b8b1;
+  // color: #cfcfcf;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -51,10 +64,18 @@ a {
 }
 
 #about {
-  width: 66%;
-  max-width: $max-width;
-  margin: auto;
+  // font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Cardo";
   padding: 2em;
-  border-radius: 0.3em;
-  box-shadow: 0 0 0.5em #e7e7e7;
+}
+
+#dollar {
+  width: 2em;
+  padding: 0.1em 0.6em;
+  background-color: #ddd6cf;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 5em;
 }
