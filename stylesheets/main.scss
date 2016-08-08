@@ -2,17 +2,8 @@ $max-width: 20em;
 $width: 90%;
 
 body {
-  // font-family: Inconsolata;
   font-family: Overpass;
-  // font-family: 'Source Sans Pro';
-  // font-weight: 300;
-
-  // font-family: "Linux Libertine Display O";
-
-  // font-family: "HK Grotesk";
-  // font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
-  // width: 100%;
   margin: 0;
 }
 
@@ -55,7 +46,8 @@ p {
 }
 
 a {
-  color: #c1b8b1;
+  color: #ccc3bc;
+  // color: #c1b8b1;
   // color: #cfcfcf;
   text-decoration: none;
   &:hover {
