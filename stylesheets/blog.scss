@@ -1,5 +1,5 @@
-$title-color: red;
-$max-width: 20em;
+$title-color: rgb(255, 78, 78);
+$max-width: 26em;
 $width: 90%;
 $serif: Charter, Georgia, "Times New Roman", serif;
 $sans: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7,6 +7,7 @@ $sans: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
 body {
   font-size: 18px;
   font-family: $serif;
+  color: #444
 }
 
 p {
@@ -74,7 +75,7 @@ a {
     overflow: auto;
   }
   li {
-    padding: 1.2em;
+    padding: 1em 2.4em;
     list-style-type: none;
     float: left;
   }
