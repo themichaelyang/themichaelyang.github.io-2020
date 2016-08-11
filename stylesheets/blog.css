@@ -1,0 +1,19 @@
+body {
+  font-size: 18px;
+  font-family: Charter, Georgia, "Times New Roman", serif; }
+
+article {
+  width: 42em;
+  margin: 0 auto; }
+
+section p {
+  line-height: 1.6em;
+  padding: 0 5em;
+  margin: 0;
+  margin-bottom: 1.6em; }
+  section p:first-of-type {
+    font-size: 1.2em;
+    padding: 0; }
+
+header {
+  font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif; }
