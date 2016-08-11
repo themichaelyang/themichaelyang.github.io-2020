@@ -1,8 +1,12 @@
 $title-color: red;
+$max-width: 20em;
+$width: 90%;
+$serif: Charter, Georgia, "Times New Roman", serif;
+$sans: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 body {
-  font-size: 16px;
-  font-family: Charter, Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-family: $serif;
 }
 
 p {
@@ -21,21 +25,23 @@ section {
     margin: 0;
     margin-bottom: 2em;
     &:first-of-type {
-      font-size: 1.25em;
+      font-size: 1.2em;
       padding: 0;
       margin-bottom: 2.4em;
+      font-style: italic;
     }
   }
 }
 
 header {
-  font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $sans;
   color: $title-color;
   margin: 2.4em 0;
+  margin-top: 0em;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   margin: 0;
   padding: 0.66em 0;
   border-bottom: 0.04em solid $title-color;
@@ -52,4 +58,39 @@ h1 {
 
 a {
   color: $title-color;
+}
+
+#navbar {
+  font-family: $sans;
+  width: $width;
+  max-width: $max-width;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  li {
+    padding: 1.2em;
+    list-style-type: none;
+    float: left;
+  }
+  a {
+    color: #ccc3bc;
+    text-decoration: none;
+  }
+}
+
+#dollar {
+  width: 2em;
+  padding: 0.1em 0.6em;
+  background-color: #f0e8e3;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 5em;
 }
