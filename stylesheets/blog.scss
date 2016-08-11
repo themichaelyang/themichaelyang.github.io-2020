@@ -7,6 +7,8 @@ $sans: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $media-small: 800px;
 
 body {
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: none;
   font-size: 17px;
   font-family: $serif;
   color: #444;
@@ -60,11 +62,13 @@ h1 {
   font-size: 2.4em;
   line-height: 1.4em;
   padding: 0.8em 0;
-  border-bottom: 0.055em solid $title-color;
+  border-bottom: 0.06em solid $title-color;
   margin: 0;
   @media (min-width: $media-small) {
     font-size: 2.8em;
     line-height: 1.6em;
+    border-bottom: 0.04em solid $title-color;
+    // padding: 0.6em 0;
   }
 }
 
@@ -74,10 +78,11 @@ h1 {
   top: -1.2em;
   font-weight: 600;
   background-color: white;
-  width: 60%;
+  max-width: 60%;
   display: inline-block;
+  box-sizing: border-box;
+  padding-right: 0.8em;
   @media (min-width: $media-small) {
-    padding-right: 1em;
     width: auto;
   }
 }

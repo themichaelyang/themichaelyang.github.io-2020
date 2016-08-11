@@ -1,4 +1,6 @@
 body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
   font-size: 17px;
   font-family: Charter, Georgia, "Times New Roman", serif;
   color: #444; }
@@ -44,12 +46,13 @@ h1 {
   font-size: 2.4em;
   line-height: 1.4em;
   padding: 0.8em 0;
-  border-bottom: 0.055em solid #fe5f5f;
+  border-bottom: 0.06em solid #fe5f5f;
   margin: 0; }
   @media (min-width: 800px) {
     h1 {
       font-size: 2.8em;
-      line-height: 1.6em; } }
+      line-height: 1.6em;
+      border-bottom: 0.04em solid #fe5f5f; } }
 
 .pub-info {
   position: relative;
@@ -57,11 +60,12 @@ h1 {
   top: -1.2em;
   font-weight: 600;
   background-color: white;
-  width: 60%;
-  display: inline-block; }
+  max-width: 60%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 0.8em; }
   @media (min-width: 800px) {
     .pub-info {
-      padding-right: 1em;
       width: auto; } }
 
 a {
