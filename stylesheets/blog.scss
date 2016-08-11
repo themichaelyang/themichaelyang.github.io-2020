@@ -1,13 +1,18 @@
-$title-color: rgb(255, 78, 78);
+// $title-color: rgb(255, 78, 78);
+$title-color: #fe5f5f;
 $max-width: 26em;
 $width: 90%;
 $serif: Charter, Georgia, "Times New Roman", serif;
 $sans: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$media-small: 800px;
 
 body {
-  font-size: 18px;
+  font-size: 17px;
   font-family: $serif;
-  color: #444
+  color: #444;
+  @media (min-width: $media-small) {
+    font-size: 18px;
+  }
 }
 
 p {
@@ -16,45 +21,65 @@ p {
 }
 
 article {
-  width: 48em;
+  max-width: 45em;
+  width: 90%;
   margin: 0 auto;
 }
 
 section {
   p {
-    padding: 0 6em;
     margin: 0;
     margin-bottom: 2em;
     &:first-of-type {
       font-size: 1.2em;
+      margin-bottom: 2em;
       padding: 0;
-      margin-bottom: 2.4em;
       font-style: italic;
+      @media (min-width: $media-small) {
+        margin-bottom: 2.4em;
+      }
+    }
+    @media (min-width: $media-small) {
+      padding: 0 5em;
     }
   }
 }
 
 header {
+  font-size: 0.95em;
   font-family: $sans;
   color: $title-color;
-  margin: 2.4em 0;
-  margin-top: 0em;
+  margin: 0;
+  margin-bottom: 1.6em;
+  @media (min-width: $media-small) {
+    font-size: 1em;
+  }
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.4em;
+  line-height: 1.4em;
+  padding: 0.8em 0;
+  border-bottom: 0.055em solid $title-color;
   margin: 0;
-  padding: 0.66em 0;
-  border-bottom: 0.04em solid $title-color;
+  @media (min-width: $media-small) {
+    font-size: 2.8em;
+    line-height: 1.6em;
+  }
 }
 
 .pub-info {
   position: relative;
-  top: -1.2em;
   font-size: 0.8em;
+  top: -1.2em;
   font-weight: 600;
   background-color: white;
-  padding-right: 1em;
+  width: 60%;
+  display: inline-block;
+  @media (min-width: $media-small) {
+    padding-right: 1em;
+    width: auto;
+  }
 }
 
 a {
@@ -68,6 +93,7 @@ a {
   margin: auto;
   margin-top: 2em;
   text-align: center;
+  font-size: 0.8em;
   ul {
     display: inline-block;
     margin: 0;

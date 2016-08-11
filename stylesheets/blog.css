@@ -1,48 +1,71 @@
 body {
-  font-size: 18px;
+  font-size: 17px;
   font-family: Charter, Georgia, "Times New Roman", serif;
   color: #444; }
+  @media (min-width: 800px) {
+    body {
+      font-size: 18px; } }
 
 p {
   line-height: 1.8em;
   margin: 0; }
 
 article {
-  width: 48em;
+  max-width: 45em;
+  width: 90%;
   margin: 0 auto; }
 
 section p {
-  padding: 0 6em;
   margin: 0;
   margin-bottom: 2em; }
   section p:first-of-type {
     font-size: 1.2em;
+    margin-bottom: 2em;
     padding: 0;
-    margin-bottom: 2.4em;
     font-style: italic; }
+    @media (min-width: 800px) {
+      section p:first-of-type {
+        margin-bottom: 2.4em; } }
+  @media (min-width: 800px) {
+    section p {
+      padding: 0 5em; } }
 
 header {
+  font-size: 0.95em;
   font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #ff4e4e;
-  margin: 2.4em 0;
-  margin-top: 0em; }
+  color: #fe5f5f;
+  margin: 0;
+  margin-bottom: 1.6em; }
+  @media (min-width: 800px) {
+    header {
+      font-size: 1em; } }
 
 h1 {
-  font-size: 3em;
-  margin: 0;
-  padding: 0.66em 0;
-  border-bottom: 0.04em solid #ff4e4e; }
+  font-size: 2.4em;
+  line-height: 1.4em;
+  padding: 0.8em 0;
+  border-bottom: 0.055em solid #fe5f5f;
+  margin: 0; }
+  @media (min-width: 800px) {
+    h1 {
+      font-size: 2.8em;
+      line-height: 1.6em; } }
 
 .pub-info {
   position: relative;
-  top: -1.2em;
   font-size: 0.8em;
+  top: -1.2em;
   font-weight: 600;
   background-color: white;
-  padding-right: 1em; }
+  width: 60%;
+  display: inline-block; }
+  @media (min-width: 800px) {
+    .pub-info {
+      padding-right: 1em;
+      width: auto; } }
 
 a {
-  color: #ff4e4e; }
+  color: #fe5f5f; }
 
 #navbar {
   font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -50,7 +73,8 @@ a {
   max-width: 26em;
   margin: auto;
   margin-top: 2em;
-  text-align: center; }
+  text-align: center;
+  font-size: 0.8em; }
   #navbar ul {
     display: inline-block;
     margin: 0;
