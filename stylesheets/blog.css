@@ -1,19 +1,29 @@
 body {
-  font-size: 18px;
+  font-size: 16px;
   font-family: Charter, Georgia, "Times New Roman", serif; }
 
+p {
+  line-height: 1.6em;
+  margin: 0; }
+
 article {
-  width: 42em;
+  width: 48em;
   margin: 0 auto; }
 
 section p {
-  line-height: 1.6em;
-  padding: 0 5em;
+  padding: 0 8em;
   margin: 0;
   margin-bottom: 1.6em; }
   section p:first-of-type {
     font-size: 1.2em;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 2.4em; }
 
 header {
-  font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1em 0; }
+
+h1 {
+  font-size: 3.2em;
+  margin: 0;
+  padding: 0.6em 0; }
