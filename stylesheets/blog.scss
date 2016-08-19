@@ -1,19 +1,23 @@
 // $title-color: rgb(255, 78, 78);
 $title-color: #fe5f5f;
-$max-width: 26em;
 $width: 90%;
 $serif: Charter, Georgia, "Times New Roman", serif;
-$sans: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$media-small: 800px;
+$sans: Overpass, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$media-medium: 750px;
+// $media-small: 500px;
 
 body {
-    -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 0.5em;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
   font-size: 17px;
   font-family: $serif;
   color: #444;
-  @media (min-width: $media-small) {
+  @media (min-width: $media-medium) {
     font-size: 18px;
+    margin: 0;
   }
 }
 
@@ -23,7 +27,8 @@ p {
 }
 
 article {
-  max-width: 45em;
+  // max-width: 32em;
+  max-width: 44em;
   width: 90%;
   margin: 0 auto;
 }
@@ -37,24 +42,26 @@ section {
       margin-bottom: 2em;
       padding: 0;
       font-style: italic;
-      @media (min-width: $media-small) {
+      @media (min-width: $media-medium) {
         margin-bottom: 2.4em;
       }
     }
-    @media (min-width: $media-small) {
+    @media (min-width: $media-medium) {
       padding: 0 5em;
     }
   }
 }
 
 header {
-  font-size: 0.95em;
+  // font-size: 0.95em;
   font-family: $sans;
   color: $title-color;
   margin: 0;
   margin-bottom: 1.6em;
-  @media (min-width: $media-small) {
-    font-size: 1em;
+  @media (min-width: $media-medium) {
+    margin-bottom: 1.5em;
+    // margin-bottom: 1.4em;
+    // font-size: 1em;
   }
 }
 
@@ -64,11 +71,17 @@ h1 {
   padding: 0.8em 0;
   border-bottom: 0.06em solid $title-color;
   margin: 0;
-  @media (min-width: $media-small) {
+  @media (min-width: $media-medium) {
     font-size: 2.8em;
-    line-height: 1.6em;
-    border-bottom: 0.04em solid $title-color;
-    // padding: 0.6em 0;
+    line-height: 1.55em;
+    // line-height: 1.6em;
+    border-bottom: 0.06em solid $title-color;
+    border: 0.08em solid $title-color;
+    // border: 0.1em solid $title-color;
+    // padding: 0.75em 0;
+    padding: 0.55em 0.9em;
+    // padding-bottom: 0.6em;
+    // padding-top: 0.5em;
   }
 }
 
@@ -82,8 +95,11 @@ h1 {
   display: inline-block;
   box-sizing: border-box;
   padding-right: 0.8em;
-  @media (min-width: $media-small) {
-    width: auto;
+  @media (min-width: $media-medium) {
+    font-weight: 700;
+    padding: 0 1em;
+    left: 2.6em;
+    max-width: none;
   }
 }
 
@@ -93,12 +109,15 @@ a {
 
 #navbar {
   font-family: $sans;
+  font-weight: 600;
+  font-size: 0.8em;
   width: $width;
-  max-width: $max-width;
   margin: auto;
   margin-top: 2em;
   text-align: center;
-  font-size: 0.8em;
+  @media (min-width: $media-medium) {
+    margin-bottom: 4em;
+  }
   ul {
     display: inline-block;
     margin: 0;
@@ -109,6 +128,9 @@ a {
     padding: 1em 2.4em;
     list-style-type: none;
     float: left;
+    @media (min-width: $media-medium) {
+      padding: 1em 3.6em;
+    }
   }
   a {
     color: #ccc3bc;

@@ -1,19 +1,23 @@
 body {
+  margin: 0;
+  padding: 0;
+  margin: 0 0.5em;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: none;
   font-size: 17px;
   font-family: Charter, Georgia, "Times New Roman", serif;
   color: #444; }
-  @media (min-width: 800px) {
+  @media (min-width: 750px) {
     body {
-      font-size: 18px; } }
+      font-size: 18px;
+      margin: 0; } }
 
 p {
   line-height: 1.8em;
   margin: 0; }
 
 article {
-  max-width: 45em;
+  max-width: 44em;
   width: 90%;
   margin: 0 auto; }
 
@@ -25,22 +29,21 @@ section p {
     margin-bottom: 2em;
     padding: 0;
     font-style: italic; }
-    @media (min-width: 800px) {
+    @media (min-width: 750px) {
       section p:first-of-type {
         margin-bottom: 2.4em; } }
-  @media (min-width: 800px) {
+  @media (min-width: 750px) {
     section p {
       padding: 0 5em; } }
 
 header {
-  font-size: 0.95em;
-  font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Overpass, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #fe5f5f;
   margin: 0;
   margin-bottom: 1.6em; }
-  @media (min-width: 800px) {
+  @media (min-width: 750px) {
     header {
-      font-size: 1em; } }
+      margin-bottom: 1.5em; } }
 
 h1 {
   font-size: 2.4em;
@@ -48,11 +51,13 @@ h1 {
   padding: 0.8em 0;
   border-bottom: 0.06em solid #fe5f5f;
   margin: 0; }
-  @media (min-width: 800px) {
+  @media (min-width: 750px) {
     h1 {
       font-size: 2.8em;
-      line-height: 1.6em;
-      border-bottom: 0.04em solid #fe5f5f; } }
+      line-height: 1.55em;
+      border-bottom: 0.06em solid #fe5f5f;
+      border: 0.08em solid #fe5f5f;
+      padding: 0.55em 0.9em; } }
 
 .pub-info {
   position: relative;
@@ -64,21 +69,27 @@ h1 {
   display: inline-block;
   box-sizing: border-box;
   padding-right: 0.8em; }
-  @media (min-width: 800px) {
+  @media (min-width: 750px) {
     .pub-info {
-      width: auto; } }
+      font-weight: 700;
+      padding: 0 1em;
+      left: 2.6em;
+      max-width: none; } }
 
 a {
   color: #fe5f5f; }
 
 #navbar {
-  font-family: Overpass, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Overpass, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
   width: 90%;
-  max-width: 26em;
   margin: auto;
   margin-top: 2em;
-  text-align: center;
-  font-size: 0.8em; }
+  text-align: center; }
+  @media (min-width: 750px) {
+    #navbar {
+      margin-bottom: 4em; } }
   #navbar ul {
     display: inline-block;
     margin: 0;
@@ -88,6 +99,9 @@ a {
     padding: 1em 2.4em;
     list-style-type: none;
     float: left; }
+    @media (min-width: 750px) {
+      #navbar li {
+        padding: 1em 3.6em; } }
   #navbar a {
     color: #ccc3bc;
     text-decoration: none; }
