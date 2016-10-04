@@ -1,23 +1,24 @@
 body {
   font-family: Overpass;
-  font-size: 12pt;
-  margin: 0; }
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 7em; }
 
 p {
-  width: 90%;
-  max-width: 20em;
-  margin: auto;
+  width: 80%;
+  max-width: 32em;
+  margin: 0 auto;
   margin-top: 0;
   margin-bottom: 2em;
-  line-height: 2em;
+  line-height: 1.8em;
   color: #7F7F7F; }
 
 #navbar {
-  width: 90%;
-  max-width: 20em;
+  width: 80%;
+  max-width: 32em;
   margin: auto;
-  margin-top: 4em;
-  margin-bottom: 2em;
+  margin-top: 3em;
+  margin-bottom: 4em;
   text-align: center; }
   #navbar ul {
     display: inline-block;
@@ -25,20 +26,15 @@ p {
     padding: 0;
     overflow: auto; }
   #navbar li {
-    padding: 1.2em;
+    padding: 2em;
     list-style-type: none;
     float: left; }
-  #navbar #dollars {
-    width: 100%; }
 
 a {
   color: #ccc3bc;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
-#about {
-  padding: 2em; }
 
 #dollar {
   width: 2em;
@@ -47,5 +43,4 @@ a {
   text-align: center;
   color: white;
   margin: 0 auto;
-  margin-top: 4em;
-  margin-bottom: 5em; }
+  margin-top: 9em; }

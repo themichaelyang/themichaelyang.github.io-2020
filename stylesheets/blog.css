@@ -9,7 +9,7 @@ body {
   color: #444; }
   @media (min-width: 750px) {
     body {
-      font-size: 18px;
+      font-size: 19px;
       margin: 0; } }
 
 p {
@@ -17,9 +17,10 @@ p {
   margin: 0; }
 
 article {
-  max-width: 44em;
+  max-width: 42em;
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 section p {
   margin: 0;
@@ -34,11 +35,11 @@ section p {
         margin-bottom: 2.4em; } }
   @media (min-width: 750px) {
     section p {
-      padding: 0 5em; } }
+      padding: 0 4.5em; } }
 
 header {
   font-family: Overpass, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  color: #fe5f5f;
+  color: #fe4d4d;
   margin: 0;
   margin-bottom: 1.6em; }
   @media (min-width: 750px) {
@@ -47,16 +48,17 @@ header {
 
 h1 {
   font-size: 2.4em;
+  font-weight: 800;
   line-height: 1.4em;
   padding: 0.8em 0;
-  border-bottom: 0.06em solid #fe5f5f;
+  border-bottom: 0.06em solid #fe4d4d;
   margin: 0; }
   @media (min-width: 750px) {
     h1 {
       font-size: 2.8em;
       line-height: 1.55em;
-      border-bottom: 0.06em solid #fe5f5f;
-      border: 0.08em solid #fe5f5f;
+      border-bottom: 0.06em solid #fe4d4d;
+      border: 0.08em solid #fe4d4d;
       padding: 0.55em 0.9em; } }
 
 .pub-info {
@@ -65,7 +67,7 @@ h1 {
   top: -1.2em;
   font-weight: 600;
   background-color: white;
-  max-width: 60%;
+  max-width: 66%;
   display: inline-block;
   box-sizing: border-box;
   padding-right: 0.8em; }
@@ -77,7 +79,7 @@ h1 {
       max-width: none; } }
 
 a {
-  color: #fe5f5f; }
+  color: #fe4d4d; }
 
 #navbar {
   font-family: Overpass, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -113,5 +115,5 @@ a {
   text-align: center;
   color: white;
   margin: 0 auto;
-  margin-top: 4em;
+  margin-top: 8em;
   margin-bottom: 5em; }

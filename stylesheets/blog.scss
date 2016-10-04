@@ -1,5 +1,7 @@
 // $title-color: rgb(255, 78, 78);
-$title-color: #fe5f5f;
+// $title-color: #fe5f5f;
+// $title-color: rgb(255, 175, 40);
+$title-color: #fe4d4d;
 $width: 90%;
 $serif: Charter, Georgia, "Times New Roman", serif;
 $sans: Overpass, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -16,21 +18,25 @@ body {
   font-family: $serif;
   color: #444;
   @media (min-width: $media-medium) {
-    font-size: 18px;
+    font-size: 19px;
     margin: 0;
   }
 }
 
 p {
   line-height: 1.8em;
+  // line-height: 1.7em;
   margin: 0;
 }
 
 article {
   // max-width: 32em;
-  max-width: 44em;
+  // max-width: 40em;
+  max-width: 42em;
   width: 90%;
   margin: 0 auto;
+  position: relative;
+  // right: 4em;
 }
 
 section {
@@ -39,6 +45,7 @@ section {
     margin-bottom: 2em;
     &:first-of-type {
       font-size: 1.2em;
+      // line-height: 1.7em;
       margin-bottom: 2em;
       padding: 0;
       font-style: italic;
@@ -47,7 +54,9 @@ section {
       }
     }
     @media (min-width: $media-medium) {
-      padding: 0 5em;
+      // padding: 0 3em;
+      padding: 0 4.5em;
+      // padding-right: 8em;
     }
   }
 }
@@ -67,6 +76,7 @@ header {
 
 h1 {
   font-size: 2.4em;
+  font-weight: 800;
   line-height: 1.4em;
   padding: 0.8em 0;
   border-bottom: 0.06em solid $title-color;
@@ -79,9 +89,11 @@ h1 {
     border: 0.08em solid $title-color;
     // border: 0.1em solid $title-color;
     // padding: 0.75em 0;
+    // padding: 0.6em 0.9em;
     padding: 0.55em 0.9em;
+
     // padding-bottom: 0.6em;
-    // padding-top: 0.5em;
+    // padding-top: 0.6em;
   }
 }
 
@@ -91,7 +103,7 @@ h1 {
   top: -1.2em;
   font-weight: 600;
   background-color: white;
-  max-width: 60%;
+  max-width: 66%;
   display: inline-block;
   box-sizing: border-box;
   padding-right: 0.8em;
@@ -145,6 +157,6 @@ a {
   text-align: center;
   color: white;
   margin: 0 auto;
-  margin-top: 4em;
+  margin-top: 8em;
   margin-bottom: 5em;
 }

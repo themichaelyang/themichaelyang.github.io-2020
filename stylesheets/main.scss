@@ -1,19 +1,20 @@
-$max-width: 20em;
-$width: 90%;
+$max-width: 32em;
+$width: 80%;
 
 body {
   font-family: Overpass;
-  font-size: 12pt;
+  font-size: 15px;
   margin: 0;
+  margin-bottom: 7em;
 }
 
 p {
   width: $width;
   max-width: $max-width;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 0;
   margin-bottom: 2em;
-  line-height: 2em;
+  line-height: 1.8em;
   // line-height: 1.8em;
   // color: #262626;
   color: #7F7F7F;
@@ -23,9 +24,8 @@ p {
   width: $width;
   max-width: $max-width;
   margin: auto;
-  // margin-top: 4em;
-  margin-top: 4em;
-  margin-bottom: 2em;
+  margin-top: 3em;
+  margin-bottom: 4em;
   text-align: center;
   ul {
     display: inline-block;
@@ -35,13 +35,11 @@ p {
     overflow: auto;
   }
   li {
-    // padding-right: 2em;
-    padding: 1.2em;
+    // padding: 1.2em;
+    // padding: 2em;
+    padding: 2em;
     list-style-type: none;
     float: left;
-  }
-  #dollars {
-    width: 100%;
   }
 }
 
@@ -56,9 +54,7 @@ a {
 }
 
 #about {
-  // font-family: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  // font-family: "Cardo";
-  padding: 2em;
+  // padding: 3em;
 }
 
 #dollar {
@@ -68,6 +64,5 @@ a {
   text-align: center;
   color: white;
   margin: 0 auto;
-  margin-top: 4em;
-  margin-bottom: 5em;
+  margin-top: 9em;
 }
