@@ -1,11 +1,13 @@
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
 $max-width: 32em;
 $width: 80%;
 
 body {
-  font-family: Overpass;
+  font-family: $sans;
+  font-weight: 400;
   font-size: 15px;
   margin: 0;
-  margin-bottom: 7em;
+  margin-bottom: 6em;
 }
 
 p {
@@ -15,7 +17,6 @@ p {
   margin-top: 0;
   margin-bottom: 2em;
   line-height: 1.8em;
-  // line-height: 1.8em;
   // color: #262626;
   color: #7F7F7F;
 }
@@ -24,7 +25,7 @@ p {
   width: $width;
   max-width: $max-width;
   margin: auto;
-  margin-top: 3em;
+  margin-top: 4em;
   margin-bottom: 4em;
   text-align: center;
   ul {
@@ -59,7 +60,7 @@ a {
 
 #dollar {
   width: 2em;
-  padding: 0.1em 0.6em;
+  padding: 0.15em 0.6em;
   background-color: #f0e8e3;
   text-align: center;
   color: white;
