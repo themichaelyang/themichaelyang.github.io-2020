@@ -7,7 +7,7 @@ body {
 
 p {
   width: 80%;
-  max-width: 32em;
+  max-width: 36em;
   margin: 0 auto;
   margin-top: 0;
   margin-bottom: 2em;
@@ -16,7 +16,7 @@ p {
 
 #navbar {
   width: 80%;
-  max-width: 32em;
+  max-width: 36em;
   margin: auto;
   margin-top: 4em;
   margin-bottom: 4em;
@@ -39,7 +39,7 @@ a {
 
 #dollar {
   width: 2em;
-  padding: 0.15em 0.6em;
+  padding: 0.125em 0.6em;
   background-color: #f0e8e3;
   text-align: center;
   color: white;
