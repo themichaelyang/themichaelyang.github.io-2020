@@ -1,25 +1,25 @@
+nav, section {
+  display: block; }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin: 0;
-  margin-bottom: 6em; }
+  margin-bottom: 9em;
+  color: #7F7F7F; }
 
 p {
-  width: 80%;
-  max-width: 36em;
-  margin: 0 auto;
-  margin-top: 0;
-  margin-bottom: 2em;
   line-height: 1.8em;
-  color: #7F7F7F; }
+  margin-top: 0;
+  margin-bottom: 2em; }
 
 #navbar {
   width: 80%;
   max-width: 36em;
   margin: auto;
   margin-top: 4em;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   text-align: center; }
   #navbar ul {
     display: inline-block;
@@ -31,11 +31,40 @@ p {
     list-style-type: none;
     float: left; }
 
+section {
+  margin: 0 auto; }
+
+#about {
+  width: 80%;
+  max-width: 36em;
+  margin: 0 auto;
+  padding-top: 2em; }
+
+#projects {
+  text-align: center;
+  width: 100%; }
+
 a {
   color: #ccc3bc;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+.project {
+  width: 100%;
+  max-width: 24em;
+  text-align: left;
+  display: inline-block;
+  vertical-align: text-top;
+  box-sizing: border-box;
+  padding: 2em; }
+
+.project-title {
+  text-align: center; }
+
+img {
+  display: block;
+  width: 100%; }
 
 #dollar {
   width: 2em;
@@ -43,5 +72,4 @@ a {
   background-color: #f0e8e3;
   text-align: center;
   color: white;
-  margin: 0 auto;
-  margin-top: 9em; }
+  margin: 9em auto; }
