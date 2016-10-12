@@ -2,9 +2,9 @@ nav, section {
   display: block; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Clear Sans", "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 15.5px;
   margin: 0;
   margin-bottom: 9em;
   color: #7F7F7F; }
@@ -15,19 +15,18 @@ p {
   margin-bottom: 2em; }
 
 #navbar {
-  width: 80%;
-  max-width: 36em;
-  margin: auto;
+  width: 100%;
   margin-top: 4em;
   margin-bottom: 2em;
-  text-align: center; }
+  text-align: center;
+  line-height: 1em; }
   #navbar ul {
     display: inline-block;
     margin: 0;
     padding: 0;
     overflow: auto; }
   #navbar li {
-    padding: 2em;
+    padding: 1.8em;
     list-style-type: none;
     float: left; }
 

@@ -1,4 +1,4 @@
-$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
+$sans: -apple-system, BlinkMacSystemFont, "Clear Sans", "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
 $max-width: 36em;
 $width: 80%;
 
@@ -8,8 +8,10 @@ nav, section { // backwards compat
 
 body {
   font-family: $sans;
+  // font-weight: 300;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 15.5px;
+  // font-size: 16px;
   margin: 0;
   margin-bottom: 9em;
   // color: #262626;
@@ -23,13 +25,15 @@ p {
 }
 
 #navbar {
-  width: $width;
-  max-width: $max-width;
-  margin: auto;
+  // width: $width;
+  width: 100%;
+  // max-width: $max-width;
+  // margin: auto;
   margin-top: 4em;
   // margin-bottom: 4em;
   margin-bottom: 2em;
   text-align: center;
+  line-height: 1em;
   ul {
     display: inline-block;
     margin: 0;
@@ -37,7 +41,7 @@ p {
     overflow: auto;
   }
   li {
-    padding: 2em;
+    padding: 1.8em;
     list-style-type: none;
     float: left;
   }
@@ -90,6 +94,7 @@ a {
 img {
   display: block;
   width: 100%;
+  // background-color: rgb(249, 240, 234);
 }
 
 #dollar {
