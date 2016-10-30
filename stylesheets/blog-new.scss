@@ -6,22 +6,34 @@ $background-color: #FFFDFB;
 $text-color:       #404040;
 
 $serif-font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif;
-$text-font-family: $serif-font-family;
-$base-font-size: 15px;
+$sans-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "Roboto", "Ubuntu", sans-serif;
 
-$text-container-width: 32em;
+$text-font-family: $serif-font-family;
+$base-font-size: 16px;
+$text-container-width: 32rem;
+
+$ui-font-family: $sans-font-family;
+
+@mixin text-container() {
+  width: $text-container-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  font-size: $base-font-size;
+  font-feature-settings: "liga", "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: $text-font-family;
-  font-feature-settings: "liga", "kern";
-  font-size: $base-font-size;
-  border-top: 2.5em solid $accent-color;
+  border-top: 2.4rem solid $accent-color;
   background-color: $background-color;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  font-family: $text-font-family;
   color: $text-color;
 }
 
@@ -30,7 +42,7 @@ h1 {
 }
 
 header {
-  margin: 3em 0;
+  margin: 4em 0;
   line-height: 1em;
 }
 
@@ -41,14 +53,36 @@ header {
 a {
   text-decoration: none;
   color: $text_link_color;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 article {
-  width: $text-container-width;
-  margin: 0 auto;
+  @include text-container();
 }
 
 p {
   line-height: 1.5em;
   margin-bottom: 1.4em;
+}
+
+#navbar {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-family: $ui-font-family;
+  font-weight: bold;
+  color: $ui-color;
+  margin: 4rem 0;
+  @include text-container();
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  a {
+    color: $ui-color;
+  }
 }

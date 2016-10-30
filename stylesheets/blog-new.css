@@ -1,21 +1,23 @@
+html {
+  font-size: 16px;
+  font-feature-settings: "liga", "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif;
-  font-feature-settings: "liga", "kern";
-  font-size: 15px;
-  border-top: 2.5em solid #FFDA22;
+  border-top: 2.4rem solid #FFDA22;
   background-color: #FFFDFB;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif;
   color: #404040; }
 
 h1 {
-  font-size: 15px; }
+  font-size: 16px; }
 
 header {
-  margin: 3em 0;
+  margin: 4em 0;
   line-height: 1em; }
 
 .pub-info {
@@ -24,11 +26,32 @@ header {
 a {
   text-decoration: none;
   color: #C69300; }
+  a:hover {
+    text-decoration: underline; }
 
 article {
-  width: 32em;
-  margin: 0 auto; }
+  width: 32rem;
+  margin-left: auto;
+  margin-right: auto; }
 
 p {
   line-height: 1.5em;
   margin-bottom: 1.4em; }
+
+#navbar {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "Roboto", "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #E2B801;
+  margin: 4rem 0;
+  width: 32rem;
+  margin-left: auto;
+  margin-right: auto; }
+  #navbar ul {
+    list-style: none;
+    padding: 0; }
+  #navbar li {
+    display: inline; }
+  #navbar a {
+    color: #E2B801; }
