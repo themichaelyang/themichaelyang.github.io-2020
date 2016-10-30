@@ -11,11 +11,12 @@ $sans-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helveti
 $text-font-family: $serif-font-family;
 $base-font-size: 16px;
 $text-container-width: 32rem;
+$text-line-height: 1.5em;
 
 $ui-font-family: $sans-font-family;
 
 @mixin text-container() {
-  width: $text-container-width;
+  max-width: $text-container-width;
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,7 +31,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 $text-line-height;
   border-top: 2.4rem solid $accent-color;
   background-color: $background-color;
   font-family: $text-font-family;
@@ -39,11 +40,12 @@ body {
 
 h1 {
   font-size: $base-font-size;
+  margin: 0.25em 0;
 }
 
 header {
   margin: 4em 0;
-  line-height: 1em;
+  line-height: $text-line-height;
 }
 
 .pub-info {
@@ -63,12 +65,12 @@ article {
 }
 
 p {
-  line-height: 1.5em;
+  line-height: $text-line-height;
   margin-bottom: 1.4em;
 }
 
 #navbar {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   font-family: $ui-font-family;
   font-weight: bold;
@@ -85,4 +87,17 @@ p {
   a {
     color: $ui-color;
   }
+}
+
+#dollar {
+  width: 2em;
+  padding: 0.17em 0.55em;
+  background-color: $accent-color;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 8em;
+  margin-bottom: 5em;
+  line-height: 1em;
+  font-family: $ui-font-family;
 }
