@@ -1,0 +1,54 @@
+$accent-color:     #FFDA22;
+$ui-color:         #E2B801;
+$text-link-color:  #C69300;
+
+$background-color: #FFFDFB;
+$text-color:       #404040;
+
+$serif-font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif;
+$text-font-family: $serif-font-family;
+$base-font-size: 15px;
+
+$text-container-width: 32em;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $text-font-family;
+  font-feature-settings: "liga", "kern";
+  font-size: $base-font-size;
+  border-top: 2.5em solid $accent-color;
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: $text-color;
+}
+
+h1 {
+  font-size: $base-font-size;
+}
+
+header {
+  margin: 3em 0;
+  line-height: 1em;
+}
+
+.pub-info {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: $text_link_color;
+}
+
+article {
+  width: $text-container-width;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1.4em;
+}
