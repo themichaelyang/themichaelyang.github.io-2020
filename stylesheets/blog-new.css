@@ -1,5 +1,5 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-feature-settings: "liga", "kern";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,7 +14,7 @@ body {
   color: #404040; }
 
 h1 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 0.25em 0; }
 
 header {
@@ -31,7 +31,7 @@ a {
     text-decoration: underline; }
 
 article {
-  max-width: 32rem;
+  max-width: 34rem;
   margin-left: auto;
   margin-right: auto; }
 
@@ -42,11 +42,11 @@ p {
 #navbar {
   font-size: 0.7rem;
   text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "Roboto", "Ubuntu", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: bold;
-  color: #E2B801;
+  color: #e6b302;
   margin: 4rem 0;
-  max-width: 32rem;
+  max-width: 34rem;
   margin-left: auto;
   margin-right: auto; }
   #navbar ul {
@@ -55,16 +55,16 @@ p {
   #navbar li {
     display: inline; }
   #navbar a {
-    color: #E2B801; }
+    color: #e6b302; }
 
 #dollar {
   width: 2em;
-  padding: 0.17em 0.55em;
-  background-color: #FFDA22;
+  padding: 0.2em 0.5em;
+  background-color: #f6ebda;
   text-align: center;
-  color: white;
+  color: #FFFDFB;
   margin: 0 auto;
   margin-top: 8em;
   margin-bottom: 5em;
   line-height: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "Roboto", "Ubuntu", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif; }

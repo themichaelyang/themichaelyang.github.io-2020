@@ -1,16 +1,16 @@
 $accent-color:     #FFDA22;
-$ui-color:         #E2B801;
+$ui-color:         #e6b302;
 $text-link-color:  #C69300;
 
 $background-color: #FFFDFB;
 $text-color:       #404040;
 
 $serif-font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif;
-$sans-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", "Roboto", "Ubuntu", sans-serif;
+$sans-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Helvetica", "Arial",  sans-serif;
 
 $text-font-family: $serif-font-family;
-$base-font-size: 16px;
-$text-container-width: 32rem;
+$base-font-size: 18px;
+$text-container-width: 34rem;
 $text-line-height: 1.5em;
 
 $ui-font-family: $sans-font-family;
@@ -91,13 +91,17 @@ p {
 
 #dollar {
   width: 2em;
-  padding: 0.17em 0.55em;
-  background-color: $accent-color;
+  padding: 0.2em 0.5em;
+  background-color: #f6ebda;
+  // background-color: #f6f1e5;
   text-align: center;
-  color: white;
+  color: $background-color;
+  // color: $text-color;
+  // border: 1px solid $text-color;
   margin: 0 auto;
   margin-top: 8em;
   margin-bottom: 5em;
   line-height: 1em;
+  // font-family: $serif-font-family;
   font-family: $ui-font-family;
 }
