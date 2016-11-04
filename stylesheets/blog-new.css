@@ -1,5 +1,5 @@
 html {
-  font-size: 18px;
+  font-size: 20px;
   font-feature-settings: "liga", "kern";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8,25 +8,26 @@ html {
 body {
   margin: 0;
   padding: 0 1.5em;
-  border-top: 2.4rem solid #FFDA22;
+  border-top: 0.5rem solid #fed730;
   background-color: #FFFDFB;
   font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif;
-  color: #404040; }
+  color: black; }
 
 h1 {
-  font-size: 18px;
-  margin: 0.25em 0; }
+  font-size: 20px;
+  margin: 0em 0; }
 
 header {
   margin: 4em 0;
   line-height: 1.5em; }
 
 .pub-info {
-  font-style: italic; }
+  font-style: italic;
+  font-size: 0.9em; }
 
 a {
   text-decoration: none;
-  color: #C69300; }
+  color: #c79204; }
   a:hover {
     text-decoration: underline; }
 
@@ -40,12 +41,14 @@ p {
   margin-bottom: 1.4em; }
 
 #navbar {
-  font-size: 0.7rem;
+  font-size: 0.66rem;
   text-transform: uppercase;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: bold;
-  color: #e6b302;
+  color: #dfae04;
   margin: 4rem 0;
+  position: relative;
+  right: 0.4em;
   max-width: 34rem;
   margin-left: auto;
   margin-right: auto; }
@@ -55,16 +58,19 @@ p {
   #navbar li {
     display: inline; }
   #navbar a {
-    color: #e6b302; }
+    letter-spacing: 0.02em;
+    color: #dfae04;
+    padding: 0.2em 0.4em; }
 
 #dollar {
   width: 2em;
   padding: 0.2em 0.5em;
-  background-color: #f6ebda;
   text-align: center;
-  color: #FFFDFB;
+  background-color: #FFFDFB;
+  color: #666666;
+  border: 0.05em solid #666666;
   margin: 0 auto;
   margin-top: 8em;
   margin-bottom: 5em;
   line-height: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif; }
+  font-family: "Palatino", "Palatino Linotype", "URW Palladio L", "Book Antiqua", "Tex Gyre Pagella", "Charter", "Bitstream Charter", "Georgia", serif; }
