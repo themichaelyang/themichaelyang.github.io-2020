@@ -60,7 +60,17 @@ p {
   #navbar a {
     letter-spacing: 0.02em;
     color: #dfae04;
-    padding: 0.2em 0.4em; }
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    position: relative;
+    bottom: 0;
+    transition-duration: 100ms; }
+    #navbar a:hover {
+      text-decoration: none;
+      bottom: 0.2em; }
+
+.nav-item-location {
+  border: 0.11em solid #dfae04; }
 
 #dollar {
   width: 2em;
