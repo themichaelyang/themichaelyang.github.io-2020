@@ -44,6 +44,7 @@ body {
 h1 {
   font-size: $base-font-size;
   margin: 0em 0;
+  line-height: 1.4em;
 }
 
 header {
@@ -54,6 +55,7 @@ header {
 .pub-info {
   font-style: italic;
   font-size: 0.9em;
+  line-height: 1.5em;
 }
 
 a {
@@ -82,6 +84,7 @@ p {
   margin: 4rem 0;
   position: relative;
   right: 0.4em;
+  line-height: 2em;
   @include aligned-container();
   ul {
     list-style: none;

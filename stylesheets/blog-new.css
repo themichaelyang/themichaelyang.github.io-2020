@@ -15,7 +15,8 @@ body {
 
 h1 {
   font-size: 20px;
-  margin: 0em 0; }
+  margin: 0em 0;
+  line-height: 1.4em; }
 
 header {
   margin: 4em 0;
@@ -23,7 +24,8 @@ header {
 
 .pub-info {
   font-style: italic;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  line-height: 1.5em; }
 
 a {
   text-decoration: none;
@@ -49,6 +51,7 @@ p {
   margin: 4rem 0;
   position: relative;
   right: 0.4em;
+  line-height: 2em;
   max-width: 34rem;
   margin-left: auto;
   margin-right: auto; }
