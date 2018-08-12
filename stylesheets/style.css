@@ -7,7 +7,7 @@ body {
   font-size: 15.5px;
   margin: 0;
   margin-bottom: 9em;
-  color: #7F7F7F; }
+  color: #444; }
 
 p {
   line-height: 1.8em;
@@ -44,7 +44,7 @@ section {
   width: 100%; }
 
 a {
-  color: #ccc3bc;
+  color: #d8c3b5;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
