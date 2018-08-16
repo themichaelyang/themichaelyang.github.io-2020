@@ -83,6 +83,13 @@ a {
   vertical-align: text-top;
   box-sizing: border-box;
   padding: 2em;
+  transition-duration: 200ms;
+  position: relative;
+  bottom: 0em;
+  &:hover {
+    position: relative;
+    bottom: 1em;
+  }
 }
 
 .project-title {

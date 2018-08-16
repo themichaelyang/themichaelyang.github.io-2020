@@ -57,7 +57,13 @@ a {
   display: inline-block;
   vertical-align: text-top;
   box-sizing: border-box;
-  padding: 2em; }
+  padding: 2em;
+  transition-duration: 200ms;
+  position: relative;
+  bottom: 0em; }
+  .project:hover {
+    position: relative;
+    bottom: 1em; }
 
 .project-title {
   text-align: center; }
