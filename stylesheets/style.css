@@ -41,7 +41,8 @@ section {
 
 #projects {
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  max-width: 72em; }
 
 a {
   color: #c5b0a1;
