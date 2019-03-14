@@ -1,4 +1,4 @@
-$sans: -apple-system, BlinkMacSystemFont, "Clear Sans", "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
 $max-width: 36em;
 $width: 80%;
 
@@ -12,7 +12,7 @@ body {
   font-size: 15.5px;
   margin: 0;
   margin-bottom: 9em;
-  color: #444;
+  // color: #444;
 }
 
 p {

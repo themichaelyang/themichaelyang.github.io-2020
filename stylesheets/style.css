@@ -2,12 +2,11 @@ nav, section {
   display: block; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Clear Sans", "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 15.5px;
   margin: 0;
-  margin-bottom: 9em;
-  color: #444; }
+  margin-bottom: 9em; }
 
 p {
   line-height: 1.8em;
@@ -79,3 +78,5 @@ img {
   text-align: center;
   color: white;
   margin: 9em auto; }
+
+/*# sourceMappingURL=style.css.map */
